@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>5 Minute Online Shopping Site</title>
+<link href="css/stylesheet.css" rel="stylesheet" type="text/css" />
+<style>
+/*#myImg{
+				width: 200px;
+				height: 200px;
+				float: left;
+				background-image:url('../pics/nike_bag.jpg');
+				display: none;
+			}*/
+#NikeBackPack{
+	height:100%;
+	width:100%;
+	display:none;
+	float:left;
+	}
+#NikeBackPack_img_div{
+	height:320px;
+	width:420px;
+	float:left;
+	}
+#NikeBackPack_ul_div{
+	height:320px;
+	width:420px;
+	float:left;
+	margin-left:20px;
+	}
+#buy_btn{
+	display:block;
+	}
+#second_buy_btn{
+	display:none;
+	}
+#cancel_btn{
+		display: none;
+			}
+</style>
+</head>
+<body>
+<p id="First_Header"></p>
+<p id="Second_Header"></p>
+<script>
+document.getElementById('First_Header').innerHTML="<h2 align='center'>5 Minute Online Shopping Site</h2>";
+document.getElementById('Second_Header').innerHTML="<h3 align='center'>dxb.shoppingcenter@hotmail.com</h3>";
+</script>
+<hr/><hr/>
+<div class="gallery">
+            <img src="pics/ipad_three.jpg" style="width:400px; height:300px">
+			 <div class="desc"><strong><p>Ipad 3</p><p>AED 1,942.50</p></strong>
+            
+             <button><strong>Buy</strong></button>
+             
+             </div>
+             
+			</div>
+<div class="gallery">
+            <img src="pics/ipad_three_case.jpg" style="width:400px; height:300px">
+			<div class="desc"><strong><p>Ipad 3 Slim Case</p><p>AED 30.50</p></strong>
+             <button><strong>Buy</strong></button></div>
+			</div>
+<div class="gallery">
+            <img src="pics/cat_watch.jpg" style="width:400px; height:300px">
+			<div class="desc"><strong><p>Caterpillar Watch</p><p>AED 479.00</p></strong>
+             <button><strong>Buy</strong></button></div>
+			</div>
+<div class="gallery">
+            <img src="pics/rolex_watch.jpg" style="width:400px; height:300px">
+			<div class="desc"><strong><p>Rolex Watch</p><p>AED 242.00</p></strong>
+             <button><strong>Buy</strong></button></div>
+			</div>
+<div class="gallery">
+            <img src="pics/adidas_bag.jpg" style="width:400px; height:300px">
+			<div class="desc"><strong><p>Adidas Bag</p><p>AED 69.00</p></strong>
+             <button><strong>Buy</strong></button></div>
+			
+            
+            </div>
+<div class="gallery">
+            <img src="pics/nike_bag.jpg" style="width:400px; height:300px" />
+			<div class="desc"><strong><p>Nike Bag</p><p>AED 52.25</p></strong>
+             
+             <button id="buy_btn" onclick="buy()"><strong>Buy</strong></button>
+             <button onclick="cancel()" id="cancel_btn">Cancel Cart</button>
+			</div>
+</div>
+<div id="NikeBackPack">
+
+<div id="NikeBackPack_img_div"><img src="pics/nike_bag.jpg" style="width:400px; height:300px; float:left" /></div>
+<div id="NikeBackPack_ul_div"><h1>Nike BackPack</h1>
+<ul>
+<li>The new stylish backpack has room to carry it all.</li>
+<li>Bag weight 0.60 Kgs</li>
+<li>AED 52.25 , Available: Black/Yellow - Black/white - Jeans Blue, Bag Size: W: 14cmxL: 28cmxH: 48cm</li>
+</ul></div>
+<!--<button id="second_buy_btn" onclick="buy()"><strong>Buy</strong></button>-->
+</div>
+
+</body>
+</html>
+<script src="function.js" type="text/javascript">
+</script>
